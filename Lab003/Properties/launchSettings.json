@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Lab003": {
+      "commandName": "Project"
+    },
+    "dev": {
+      "commandName": "Project"
+    }
+  }
+}
