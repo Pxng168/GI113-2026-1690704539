@@ -36,9 +36,11 @@ namespace Lab003
             Console.WriteLine("\n----- Exact HP Percent (no integer truncation) -----");
             Console.WriteLine($"HP Percent (exact): {hpPercentExact}%");
             Console.WriteLine($"\n----- Explicit Cast: Attack Power -> Display Int -----");
+            /* cast attackPower (float) เป็น int ด้วย (int) เก็บใส่ตัวแปรชื่อ attackDisplay */
             int attackDisplay = (int)attackPower;
             Console.WriteLine($"Attack Power (int cast): {attackDisplay}");
             Console.WriteLine($"\n----- Cast vs Convert: Crit Multiplier -----");
+            /* แปลง critMultiplier เป็น int สองวิธีคู่กัน: (int)critMultiplier เก็บใส่ critCast, และ Convert.ToInt32(critMultiplier) เก็บใส่ critConvert */
             int critCast = (int)critMultiplier;
             int critConvert = Convert.ToInt32(critMultiplier);
             Console.WriteLine($"Crit Multiplier (int cast): {critCast}");
