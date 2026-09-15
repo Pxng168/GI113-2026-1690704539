@@ -14,7 +14,7 @@ namespace Lab004
             Console.Write("Name your character: ");
             string charName = Console.ReadLine();
             Console.Write("Choose a class (1-3): ");
-            bool classOk = int.TryParse(Console.ReadLine(), out int classNum);
+            bool classOk = int.TryParse(Console.ReadLine(), out int classNum); /* classOk จะเก็บค่า true/false ส่วน classNum เก็บค่าที่เราใส่มา */
             Console.Write("Starting luck (0.0-10.0): ");
             bool luckOk = double.TryParse(Console.ReadLine(), out double luck);
             Console.Write("How many potions? ");
