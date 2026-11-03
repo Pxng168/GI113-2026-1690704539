@@ -7,7 +7,7 @@
  */
 using System;
 
-namespace Lab11
+namespace Lab08
 {
     internal class Program
     {
